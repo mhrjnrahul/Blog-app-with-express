@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="h-screen w-full">
-      <div className='bg-[url("/thumbnail.png")] bg-no-repeat bg-cover w-full h-full flex flex-col justify-start items-center '>
+    <div className="h-screen w-full -mt-16">
+      <div className='bg-[url("/thumbnail.png")] bg-no-repeat bg-cover w-full h-full flex flex-col justify-start items-center p-16'>
         <div className="flex flex-col mt-10">
           <p className="text-4xl text-center">
             Publish your passions, your way
