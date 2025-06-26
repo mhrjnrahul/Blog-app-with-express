@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav className='flex justify-between items-center bg-black text-white px-10 w-full h-16'>
+      <div>Blogger</div>
+      <div>
+        <button>Signup</button>
+      </div>
+    </nav>
   )
 }
 
