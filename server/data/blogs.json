@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Understanding React Hooks",
+        "description": "A deep dive into React Hooks, their benefits, and how to use them effectively in your applications."
+    },
+    {
+        "id": 2,
+        "title": "JavaScript ES6 Features",
+        "description": "An overview of the new features introduced in ES6 and how they can improve your JavaScript code."
+    },
+    {
+        "id": 3,
+        "title": "CSS Grid vs Flexbox",
+        "description": "A comparison of CSS Grid and Flexbox, including when to use each layout system."
+    },
+    {
+        "id": 4,
+        "title": "Building RESTful APIs with Node.js",
+        "description": "A guide to creating RESTful APIs using Node.js and Express."
+    },
+    {
+        "id": 5,
+        "title": "Introduction to TypeScript",
+        "description": "Learn the basics of TypeScript and how it can enhance your JavaScript development experience."
+    }
+]
