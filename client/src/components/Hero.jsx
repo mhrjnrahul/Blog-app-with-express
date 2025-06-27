@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -13,12 +14,12 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-row gap-5">
-          <button className="bg-black text-xl text-white p-5 rounded-2xl mt-15">
+          <Link to="/" className="bg-black text-xl text-white p-5 rounded-2xl mt-15">
             CREATE YOUR BLOG
-          </button>
-          <button className="bg-black text-xl text-white p-5 rounded-2xl mt-15">
+          </Link>
+          <Link to="/blogs" className="bg-black text-xl text-white p-5 rounded-2xl mt-15">
             SEE ALL BLOGS
-          </button>
+          </Link>
         </div>
       </div>
     </div>

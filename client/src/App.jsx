@@ -1,16 +1,14 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Extra from './components/Extra'
-import Footer from './components/Footer'
+import { Outlet } from 'react-router-dom'
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Extra />
-      <Footer />
+      
+      <main className='min-h-screen'>
+        <Outlet />
+      </main>
+      
     </div>
   )
 }
